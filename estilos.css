@@ -58,34 +58,58 @@ h1::after {
     box-sizing: border-box;
 }
 
-.footer-img {
-    background-color: rgb(77, 118, 255);
-    color: #FFF;
-    width: 100%;
-    display: flex;
+#myFooter {
+    background-color: #2363d3;
 }
 
-.figure {
-    vertical-align: middle;
-    width: calc(100% / 4);
+#myFooter .row {
+    margin-bottom: 60px;
 }
 
-.figure:hover {
-    background-color: #7ccfff;
-    cursor: pointer;
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #2363d3;
+    text-align: center;
 }
 
-.figure a {
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
     text-decoration: none;
-    color: #FFF !important;
 }
 
-.figure img {
-    display: inline !important;
-    width: 25px;
+#myFooter .social-icons {
+    float: right;
 }
 
-.figure figcaption {
-    display: inline !important;
-    vertical-align: super !important;
+#myFooter .github:hover {
+    color: #000000;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00bbff;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .info {
+        text-align: center;
+    }
 }
